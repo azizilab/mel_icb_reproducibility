@@ -1,0 +1,42 @@
+---
+title: "KINOMO Results Melanoma"
+author: "Jana Biermann, PhD"
+date: "10/20/2022"
+output: pdf_document
+classoption: a5paper
+---
+
+```{r, echo =F}
+#install.packages("tinytex")
+#tinytex::install_tinytex()
+```
+
+```{r, echo =F}
+knitr::opts_chunk$set(dev = 'png')
+```
+
+```{r, include=FALSE, echo =F}
+options(tinytex.verbose = TRUE)
+```
+
+```{r, results='asis', echo=F,include=T}
+patients<-c('F01_on','F01_pre','F02_on','F02_pre','F03_post1_on2','F03_post1_pre2','F04_pre',
+        'F05_pre','F06_post1_pre2','F07_post1_pre2','F08_post','F09_post',
+        'F12_post','F15_pre','F16_post1_pre2','F16_pre','F17_post',
+        'F18_post','F20_post1_pre2','F22_post','F23_post',
+        'F26_post','F27_post1_pre2','F28_post1_pre2','F29_post1_pre2','F30_post',
+        'F31_post','R294_on','R308_pre','R310_on1','R310_on2','R310_pre',
+        'R319_on','R319_pre','R328_on','R329_on')
+# 'F12_pre','R204_pre','R334_pre','R354_pre'
+
+for (pat in patients){
+  system(paste0("aws s3 sync s3://melanoma-ribas/KINOMO/ ~/Documents/melanoma/data/KINOMO/ --exclude '*' --include '*",pat,"*KINOMO_nmf.pdf'"))
+
+  cat('\n')  
+  cat("# ", pat, "\n")
+  #knitr::include_graphics(paste0("~/Documents/SCLC/data/",pat,"/",pat,".pdf"))
+  cat(paste0("![](", "~/Documents/melanoma/data/KINOMO/",pat,"/",pat,"_KINOMO_nmf.pdf)"), "\n")
+  #cat('\n') 
+}
+```
+
