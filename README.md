@@ -3,7 +3,6 @@
 Figure 1:
 - Initial_processing/
 - Annotation/
-- milo/
 - Mel_Figures_5_6_7_S6_S7_S8.ipynb
 
 Figure 2:
@@ -31,7 +30,7 @@ Figure 7:
 
 Figure S1:
 - patient_overview.R
-- milo_abundance_final
+- milo/
 
 Figure S2:
 - Mel_Figures_3_S2_S3.ipynb
