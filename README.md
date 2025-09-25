@@ -3,6 +3,7 @@
 Figure 1:
 - Initial_processing/
 - Annotation/
+- milo/
 - Mel_Figures_5_6_7_S6_S7_S8.ipynb
 
 Figure 2:
