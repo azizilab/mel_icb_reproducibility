@@ -1,0 +1,66 @@
+# R Package Requirements for Melanoma ICB Reproducibility Analysis
+# Install using: Rscript -e "install.packages(readLines('r_requirements.txt'), repos='https://cran.rstudio.com/')"
+
+# Core R packages
+dplyr
+ggplot2
+gplots
+viridis
+RColorBrewer
+ggpubr
+ggrepel
+scales
+stringr
+reshape2
+patchwork
+cowplot
+pheatmap
+Matrix
+stringi
+data.table
+argparse
+parallel
+psych
+grid
+Cairo
+ggbeeswarm
+tidyverse
+matrixStats
+mixtools
+gridExtra
+msigdbr
+maptree
+NMF
+registry
+rngtools
+purrr
+pkgmaker
+cluster
+ggrastr
+tidyr
+glue
+vcfR
+ggtree
+tidygraph
+circlize
+ComplexHeatmap
+rlist
+readr
+optparse
+
+# Bioconductor packages (install separately using BiocManager)
+# BiocManager::install(c(
+#   "MAST",
+#   "SingleCellExperiment", 
+#   "rhdf5",
+#   "DropletUtils",
+#   "SingleR",
+#   "celldex",
+#   "scater",
+#   "infercnv",
+#   "miloR"
+# ))
+
+# Custom packages (install from source)
+# devtools::install_github("path/to/decipher")
+# devtools::install_github("path/to/basis_decomposition")

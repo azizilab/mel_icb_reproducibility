@@ -1,0 +1,128 @@
+# Python Dependencies for Melanoma ICB Reproducibility Analysis
+
+# Core scientific computing
+numpy>=1.21.0,<2.0.0
+pandas>=1.3.0,<3.0.0
+scipy>=1.7.0,<2.0.0
+matplotlib>=3.5.0,<4.0.0
+seaborn>=0.11.0,<1.0.0
+
+# Single-cell analysis
+scanpy>=1.8.0,<2.0.0
+anndata>=0.8.0,<1.0.0
+scvi-tools>=0.20.0,<1.0.0
+scib>=1.0.0,<2.0.0
+
+# Machine learning and statistics
+scikit-learn>=1.0.0,<2.0.0
+statsmodels>=0.13.0,<1.0.0
+torch>=1.12.0,<3.0.0
+pyro-ppl>=1.8.0,<2.0.0
+
+# Data processing and utilities
+adjusttext>=0.7.0,<1.0.0
+tqdm>=4.60.0,<5.0.0
+kneed>=0.7.0,<1.0.0
+pathlib2>=2.3.0,<3.0.0
+
+# Jupyter and visualization
+jupyter>=1.0.0,<2.0.0
+ipywidgets>=7.6.0,<9.0.0
+notebook>=6.4.0,<8.0.0
+
+# File I/O and data formats
+h5py>=3.1.0,<4.0.0
+openpyxl>=3.0.0,<4.0.0
+xlsxwriter>=3.0.0,<4.0.0
+
+# System and multiprocessing
+psutil>=5.8.0,<6.0.0
+
+# Custom packages (these may need to be installed separately)
+# decipher  # Custom package for trajectory analysis
+# basis_decomposition  # Custom package for basis decomposition (part of decipher)
+
+# R Dependencies (install via conda or R)
+# Note: R packages should be installed via conda-forge or R CRAN
+# The following R packages are required:
+
+# Core R packages
+# r-base>=4.1.0
+# r-essentials
+
+# Bioconductor packages
+# bioconductor-mast>=1.16.0
+# bioconductor-singlecellexperiment>=1.16.0
+# bioconductor-rhdf5>=2.38.0
+# bioconductor-dropletutils>=1.14.0
+# bioconductor-singler>=1.8.0
+# bioconductor-celldex>=1.6.0
+# bioconductor-scater>=1.22.0
+# bioconductor-infercnv>=1.10.0
+# bioconductor-milor>=1.0.0
+
+# CRAN packages
+# r-dplyr>=1.0.0
+# r-ggplot2>=3.3.0
+# r-gplots>=3.1.0
+# r-viridis>=0.6.0
+# r-rcolorbrewer>=1.1.0
+# r-ggpubr>=0.4.0
+# r-ggrepel>=0.9.0
+# r-scales>=1.1.0
+# r-stringr>=1.4.0
+# r-reshape2>=1.4.0
+# r-patchwork>=1.1.0
+# r-cowplot>=1.1.0
+# r-pheatmap>=1.0.0
+# r-matrix>=1.4.0
+# r-stringi>=1.7.0
+# r-seurat>=4.0.0
+# r-data.table>=1.14.0
+# r-argparse>=2.1.0
+# r-parallel>=4.1.0
+# r-fgsea>=1.18.0
+# r-hyper>=1.8.0
+# r-ggvenndiagram>=1.2.0
+# r-upsetr>=1.4.0
+# r-psych>=2.2.0
+# r-grid>=4.1.0
+# r-cairo>=1.5.0
+# r-ggbeeswarm>=0.6.0
+# r-tidyverse>=1.3.0
+# r-matrixstats>=0.61.0
+# r-mixtools>=2.0.0
+# r-gridextra>=2.3.0
+# r-msigdbr>=7.5.0
+# r-maptree>=1.4.0
+# r-nmf>=0.23.0
+# r-registry>=0.5.0
+# r-rngtools>=1.5.0
+# r-purrr>=0.3.0
+# r-pkgmaker>=0.32.0
+# r-cluster>=2.1.0
+# r-ggrastr>=0.2.0
+# r-tidyr>=1.2.0
+# r-copynumber>=1.30.0
+# r-numbat>=1.0.0
+# r-glue>=1.6.0
+# r-vcfr>=1.12.0
+# r-ggtree>=3.2.0
+# r-tidygraph>=1.2.0
+# r-circlize>=0.4.0
+# r-complexheatmap>=2.10.0
+# r-rlist>=2.4.0
+# r-readr>=2.1.0
+# r-optparse>=1.7.0
+
+# External tools (install separately)
+# GSEA (Java-based tool)
+# Circos (Perl-based tool)
+# AWS CLI (for data access)
+
+# System requirements
+# Python >= 3.8, < 3.11
+# R >= 4.1.0
+# Java >= 8 (for GSEA)
+# Perl >= 5.26 (for Circos)
+# ImageMagick (for image processing)
