@@ -22,6 +22,7 @@ Figure 5:
 - Mel_Figures_5_6_7_S6_S7_S8.ipynb
 
 Figure 6:
+- myeloid/
 - Mel_Figures_5_6_7_S6_S7_S8.ipynb
 
 Figure 7:
@@ -48,6 +49,7 @@ Figure S6:
 - Mel_Figures_5_6_7_S6_S7_S8.ipynb
 
 Figure S7:
+- myeloid/
 - Mel_Figures_5_6_7_S6_S7_S8.ipynb
 
 Figure S8:
