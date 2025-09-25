@@ -19,6 +19,7 @@ Figure 4:
 - Mel_Figures_4_S4_S5_S8.ipynb
 
 Figure 5:
+- tcells/
 - Mel_Figures_5_6_7_S6_S7_S8.ipynb
 
 Figure 6:
@@ -26,6 +27,7 @@ Figure 6:
 - Mel_Figures_5_6_7_S6_S7_S8.ipynb
 
 Figure 7:
+- contact_tracing/
 - Mel_Figures_4_S4_S5_S8.ipynb
 - Mel_Figures_5_6_7_S6_S7_S8.ipynb
 
@@ -46,6 +48,7 @@ Figure S5:
 - Mel_Figures_4_S4_S5_S9.ipynb
 
 Figure S6:
+- tcells/
 - tcr/
 - Mel_Figures_5_6_7_S6_S7_S8.ipynb
 
@@ -54,6 +57,7 @@ Figure S7:
 - Mel_Figures_5_6_7_S6_S7_S8.ipynb
 
 Figure S8:
+- contact_tracing/
 - Mel_Figures_5_6_7_S6_S7_S8.ipynb
 
 Figure S9:
