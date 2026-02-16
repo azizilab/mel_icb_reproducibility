@@ -1,3 +1,6 @@
+## System requirements and Installation
+All requirements may be found in requirements.txt and r_requirements.txt. All packages used are previously published; please refer to the corresponding guides for installation instructions/times. Processed data generated using lpWGS, snRNA-seq, and TCR-seq have been deposited at GEO (GSE308433, GSE308434, GSE308435).
+
 ## Files creating figures:
 
 Figure 1:
